@@ -32,9 +32,9 @@ footer {
 	text-align: center;
 }*/
 
-.title {
+h1.title {
 	border: 1px solid white;
-	width: 100%;
+	width: 75%;
 	text-align: center;
 	color: white;
 	font-variant: small-caps;
@@ -103,8 +103,9 @@ main {
 }
 
 @media screen and (max-width: 500px) {
-	.title {
+	h1.title {
 		width: 60%;
+		max-height: 20%;
 		font-size: 30px;
 		background-size: 40%;
 	}
