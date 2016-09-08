@@ -1,3 +1,80 @@
 body {
 	background: #FAEBD7;
+	text-align: center;
 }
+
+.mealplan {
+	border: 3px dashed black;
+	padding: 0px 8px 10px 13px;
+	width: 500px;
+	margin: auto;
+	text-align: center;
+}
+
+img.homepage {
+	display: block;
+	margin: auto;
+}
+
+footer {
+	border: 4px solid white;
+	border-top: none;
+	border-bottom: none;
+	width: 200px;
+	text-align: center;
+	margin: auto;
+	padding: 0px 0px 5px 0px;
+}
+
+
+/*footer.h3 {
+	text-align: center;
+}*/
+
+.title {
+	border: 1px solid white;
+	width: 800px;
+	text-align: center;
+	color: white;
+	font-variant: small-caps;
+	font-weight: bold;
+	text-shadow: black 5px 5px 5px;
+	font-family: Arial;
+	font-size: 100px;
+	margin: auto;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	padding: 40px 40px 40px 40px;
+	background-image: url(images/header.jpg);
+	background-size: 320px 240px;
+}
+
+a:link {
+	color: blue;
+}
+
+a:visited {
+	color: red;
+}
+
+a:hover {
+	color: yellow;
+}
+
+#intro {
+	font-size: 30px;
+}
+
+#recipe {
+	width: 600px;
+	margin: auto;
+	text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    width: 75%;
+  }
+}
+
+
