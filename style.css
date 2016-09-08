@@ -71,10 +71,19 @@ a:hover {
 	text-align: center;
 }
 
+table, td, th {
+	vertical-align: bottom;
+	margin: auto;
+}
+
 @media screen and (max-width: 500px) {
   .title {
     width: 75%;
   }
+}
+
+li {
+	max-width: 400px;
 }
 
 
