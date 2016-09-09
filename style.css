@@ -99,7 +99,7 @@ main {
 }
 
 .sidebar{
-	max-width: 50%;
+	min-width: 10%;
 	display: block;
 	position: absolute;
 	vertical-align: left;
@@ -107,18 +107,24 @@ main {
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   img.homepage {
     width: 60%;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 	h1.title {
 		width: 60%;
 		max-height: 500px;
 		font-size: 30px;
 		background-size: 40%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#intro > p {
+		font-size: 10px;
 	}
 }
 
