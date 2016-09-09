@@ -63,6 +63,11 @@ h1.title {
 
 nav {
 	font-size: 15px;
+	max-width: 17%;
+	display: block;
+	position: absolute;
+	height: 100%;
+	font-size: 1.5em;
 }
 
 a:link {
@@ -101,14 +106,7 @@ main {
 	padding-left: 20%;
 }
 
-.sidebar {
-	max-width: 17%;
-	display: block;
-	position: absolute;
-	height: 100%;
-	font-size: 1.5em;
 
-}
 
 @media screen and (max-width: 600px) {
   img.homepage {
@@ -132,7 +130,7 @@ main {
 }
 
 @media screen and (max-width: 600px) {
-	.sidebar {
+	nav {
 		font-size: 0.5em;
 	}
 }
