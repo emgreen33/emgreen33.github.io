@@ -131,4 +131,10 @@ main {
 	}
 }
 
+@media screen and (max-width: 600px) {
+	.sidebar {
+		font-size: 0.5em;
+	}
+}
+
 
