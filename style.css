@@ -106,31 +106,22 @@ main {
 	padding-left: 20%;
 }
 
-
-
 @media screen and (max-width: 600px) {
   img.homepage {
     width: 60%;
   }
-}
 
-@media screen and (max-width: 600px) {
-	h1.title {
+  h1.title {
 		width: 60%;
 		max-height: 500px;
 		font-size: 30px;
 		background-size: 40%;
 	}
-}
-
-@media screen and (max-width: 600px) {
-	#intro > p {
+  #intro > p {
 		font-size: 10px;
 	}
-}
 
-@media screen and (max-width: 600px) {
-	nav {
+  nav {
 		font-size: 0.5em;
 	}
 }
